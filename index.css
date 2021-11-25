@@ -1,0 +1,27 @@
+
+
+/* Include the padding and border in an element's total width and height */
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  min-width: 250px;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 50px;
+}
+body{
+  background-color:chartreuse;
+}
+
+
+@media screen and (max-width:765px){
+  .container {
+    min-width: 300px;
+    max-width: 360px;
+    margin: auto;
+    margin-top: 30px;
+  }
+  
+}
